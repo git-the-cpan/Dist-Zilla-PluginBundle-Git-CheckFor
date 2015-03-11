@@ -34,19 +34,19 @@ no_index:
 provides:
   Dist::Zilla::Plugin::Git::CheckFor::CorrectBranch:
     file: lib/Dist/Zilla/Plugin/Git/CheckFor/CorrectBranch.pm
-    version: '0.012'
+    version: '0.013'
   Dist::Zilla::Plugin::Git::CheckFor::Fixups:
     file: lib/Dist/Zilla/Plugin/Git/CheckFor/Fixups.pm
-    version: '0.012'
+    version: '0.013'
   Dist::Zilla::Plugin::Git::CheckFor::MergeConflicts:
     file: lib/Dist/Zilla/Plugin/Git/CheckFor/MergeConflicts.pm
-    version: '0.012'
+    version: '0.013'
   Dist::Zilla::PluginBundle::Git::CheckFor:
     file: lib/Dist/Zilla/PluginBundle/Git/CheckFor.pm
-    version: '0.012'
+    version: '0.013'
   Dist::Zilla::Role::Git::Repo::More:
     file: lib/Dist/Zilla/Role/Git/Repo/More.pm
-    version: '0.012'
+    version: '0.013'
 requires:
   Dist::Zilla::Plugin::Git::NextVersion: '1.120370'
   Dist::Zilla::Role::BeforeRelease: '0'
@@ -57,7 +57,6 @@ requires:
   List::MoreUtils: '0'
   List::Util: '0'
   Moose: '0'
-  Moose::Autobox: '0'
   Moose::Role: '0'
   MooseX::AttributeShortcuts: '0'
   Try::Tiny: '0'
@@ -70,7 +69,7 @@ resources:
   bugtracker: https://github.com/RsrchBoy/dist-zilla-pluginbundle-git-checkfor/issues
   homepage: https://github.com/RsrchBoy/dist-zilla-pluginbundle-git-checkfor
   repository: https://github.com/RsrchBoy/dist-zilla-pluginbundle-git-checkfor.git
-version: '0.012'
+version: '0.013'
 x_Dist_Zilla:
   perl:
     version: '5.020001'
@@ -96,7 +95,7 @@ x_Dist_Zilla:
         Dist::Zilla::Role::Git::Repo:
           repo_root: .
       name: '@RSRCHBOY/Git::NextVersion'
-      version: '2.029'
+      version: '2.030'
     -
       class: Dist::Zilla::Plugin::ContributorsFromGit
       name: '@RSRCHBOY/ContributorsFromGit'
@@ -149,7 +148,7 @@ x_Dist_Zilla:
           phase: build
           skip: []
       name: '@RSRCHBOY/PromptIfStale'
-      version: '0.038'
+      version: '0.040'
     -
       class: Dist::Zilla::Plugin::PruneCruft
       name: '@RSRCHBOY/PruneCruft'
@@ -359,7 +358,7 @@ x_Dist_Zilla:
         Dist::Zilla::Role::Git::Repo:
           repo_root: .
       name: '@RSRCHBOY/Git::Check'
-      version: '2.029'
+      version: '2.030'
     -
       class: Dist::Zilla::Plugin::Git::Commit
       config:
@@ -382,7 +381,7 @@ x_Dist_Zilla:
         Dist::Zilla::Role::Git::Repo:
           repo_root: .
       name: '@RSRCHBOY/Git::Commit'
-      version: '2.029'
+      version: '2.030'
     -
       class: Dist::Zilla::Plugin::Test::CheckDeps
       name: '@RSRCHBOY/Test::CheckDeps'
@@ -409,14 +408,14 @@ x_Dist_Zilla:
         Dist::Zilla::Plugin::Git::Tag:
           branch: ~
           signed: '1'
-          tag: '0.012'
+          tag: '0.013'
           tag_format: '%v'
           tag_message: v%v
           time_zone: local
         Dist::Zilla::Role::Git::Repo:
           repo_root: .
       name: '@RSRCHBOY/Git::Tag'
-      version: '2.029'
+      version: '2.030'
     -
       class: Dist::Zilla::Plugin::Git::CommitBuild
       config:
@@ -430,7 +429,7 @@ x_Dist_Zilla:
         Dist::Zilla::Role::Git::Repo:
           repo_root: .
       name: '@RSRCHBOY/Git::CommitBuild::Build'
-      version: '2.029'
+      version: '2.030'
     -
       class: Dist::Zilla::Plugin::Git::CommitBuild
       config:
@@ -444,7 +443,7 @@ x_Dist_Zilla:
         Dist::Zilla::Role::Git::Repo:
           repo_root: .
       name: '@RSRCHBOY/Git::CommitBuild::Release'
-      version: '2.029'
+      version: '2.030'
     -
       class: Dist::Zilla::Plugin::Git::Push
       config:
@@ -456,7 +455,7 @@ x_Dist_Zilla:
         Dist::Zilla::Role::Git::Repo:
           repo_root: .
       name: '@RSRCHBOY/Git::Push'
-      version: '2.029'
+      version: '2.030'
     -
       class: Dist::Zilla::Plugin::UploadToCPAN
       name: '@RSRCHBOY/UploadToCPAN'

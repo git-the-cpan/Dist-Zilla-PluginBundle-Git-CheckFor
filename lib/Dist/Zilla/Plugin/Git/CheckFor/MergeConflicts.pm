@@ -9,13 +9,12 @@
 #
 package Dist::Zilla::Plugin::Git::CheckFor::MergeConflicts;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-$Dist::Zilla::Plugin::Git::CheckFor::MergeConflicts::VERSION = '0.012';
+$Dist::Zilla::Plugin::Git::CheckFor::MergeConflicts::VERSION = '0.013';
 use strict;
 use warnings;
 
 # ABSTRACT: Check your repo for merge-conflicted files
 use Moose;
-use Moose::Autobox;
 use autodie qw(:io);
 use namespace::autoclean;
 use List::MoreUtils qw(any);
@@ -57,7 +56,7 @@ sub before_release {
 
     my %error_files;
     FILE:
-    foreach my $file ( $self->zilla->files->flatten ) {
+    foreach my $file ( @{ $self->zilla->files } ) {
         next FILE
             if $file->can('encoding') and $file->encoding eq 'bytes';
 
@@ -107,7 +106,7 @@ Dist::Zilla::Plugin::Git::CheckFor::MergeConflicts - Check your repo for merge-c
 
 =head1 VERSION
 
-This document describes version 0.012 of Dist::Zilla::Plugin::Git::CheckFor::MergeConflicts - released February 23, 2015 as part of Dist-Zilla-PluginBundle-Git-CheckFor.
+This document describes version 0.013 of Dist::Zilla::Plugin::Git::CheckFor::MergeConflicts - released March 10, 2015 as part of Dist-Zilla-PluginBundle-Git-CheckFor.
 
 =head1 SYNOPSIS
 

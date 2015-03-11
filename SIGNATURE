@@ -15,23 +15,23 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 55ac697642a18dd7d974736a3d06fd531aa82382 .travis.yml
-SHA1 666dd0bf57b5bd61a0d63b53986117e23c72cef1 Changes
+SHA1 6e57f3e3d2b00fe77210486cfea399d11f59161b Changes
 SHA1 bf2d713ceca5b8ad3d680ed15baba1b89df7e149 LICENSE
 SHA1 b7184132522abbd085c65ec487ffdc108ba78202 MANIFEST
-SHA1 1e21b9dfba5da1d2c1ce1eb76761c18eff7ce71a META.json
-SHA1 49a668ef2e0bc2e29207a12100318656589792f3 META.yml
-SHA1 73b522761e8932988d81f5d7e5e5ba423409127f Makefile.PL
-SHA1 beb484f0eac03a00d404c389be02323fab2858c0 README
-SHA1 c07d06cb7eb8342086c0fa6571e8713b541bbf2a cpanfile
+SHA1 73f341f3d8e7b666ccbbcd9a958aa3f3466f657b META.json
+SHA1 746ad17246a6e6089c0ca2458e6d01a66c0b26d0 META.yml
+SHA1 ed1313640708f86c995b36118e7d1b5e9b83c344 Makefile.PL
+SHA1 e2c1d30319d0efafddd1b8c3933b306c82b2e519 README
+SHA1 bbac59001f857c21649fa12a2fae798facb12eff cpanfile
 SHA1 13ea8e46e36de7991ce691be6d82199bbba786e7 dist.ini
-SHA1 5aa5939894d617d03e887e5de7bb81773a26bd6f lib/Dist/Zilla/Plugin/Git/CheckFor/CorrectBranch.pm
-SHA1 391fe15e210e12be6f40dd3ba15541261a772074 lib/Dist/Zilla/Plugin/Git/CheckFor/Fixups.pm
-SHA1 639b673c36d90cf82dabfb8b44bc7c0f2ce6d8a0 lib/Dist/Zilla/Plugin/Git/CheckFor/MergeConflicts.pm
-SHA1 0565a0b89959f0e389bb753630b54a39d621112f lib/Dist/Zilla/PluginBundle/Git/CheckFor.pm
-SHA1 abd571ec3cf16632c8d22530ae6580d95cee9cbc lib/Dist/Zilla/Role/Git/Repo/More.pm
+SHA1 5fdc1892a0d52ea9308e32a292a803c73ed81fed lib/Dist/Zilla/Plugin/Git/CheckFor/CorrectBranch.pm
+SHA1 ab04c786aa8e90064dbb26c91d11dcc6d842d186 lib/Dist/Zilla/Plugin/Git/CheckFor/Fixups.pm
+SHA1 a22b14bd4d6d81abc58ca2f07268e6ab7bda6522 lib/Dist/Zilla/Plugin/Git/CheckFor/MergeConflicts.pm
+SHA1 4458bf7b1c44e40efd349163c13639f0a9fe287c lib/Dist/Zilla/PluginBundle/Git/CheckFor.pm
+SHA1 895b4705c2e2e2fef26b00d9d664bf6fd1453d3d lib/Dist/Zilla/Role/Git/Repo/More.pm
 SHA1 c522c3928158e64bd97d34d20cbfe0b5305a7eb2 t/00-check-deps.t
 SHA1 c37cf1ed89a6c803d502b45b3820a22f66ae9ba8 t/00-compile.t
-SHA1 c1df4d2212cc629e1f17cd870debf4bb9aa4eac1 t/000-report-versions-tiny.t
+SHA1 bd2f13327cb4bc88e2694b8f45a61316985c65e9 t/000-report-versions-tiny.t
 SHA1 538185e62ea813fffa1c9b0d1adbffb6a9d88be7 t/funcs.pm
 SHA1 b2e39d9ca7dc6c35ebb22b6678e66f25dedffaae t/plugin/correct_branch.t
 SHA1 6ccc32191ec0f65c0f3147bb13348a490db3a769 t/plugin/fixups.t
@@ -48,17 +48,17 @@ SHA1 10f98407c19e2563c61ca0637779053fd23f9384 xt/release/pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQIcBAEBAgAGBQJU7AJyAAoJEJ/Rlq0N/NXWAtMP/iCIIm6tpiXDiTwkBWU7+Uus
-OdXV9XYjt9Liar8wy4ilq3SvqJlA+1qVZQBUA4eAbsaoXjmUUdbsJj2mh1I6JESS
-HC/OXid7Jo6TkKn3V/mnhtlnJv3OKjVowarTMNiMO3YPc8ZC2shUclPgEizDiglN
-sgQoiQGnGk8inMQgWwRmAwhQg//bitaIpeuzjwbteWj5toaE3merABl39pS5Bket
-z4+ohDAXujMYqh913EMuAU+x3aJ6N6HeVNetgaOHlfX9PSDGOpDl/hqNkfzxJOU/
-uLQB99CDzEzkqvJM69gMKQJC/py92OKdBiK5CG80RN9UKR9VKlnbzREbDZsqc/su
-BSOg5lZpn+q5JydzzbzWY6soGaKYWh+C8tODRfZfrJknNBiTKDnT6OV4azOLrJpR
-gCYkO7fO/ouZ9+J6K22zSphE1JrIdao0l6hawg3LEe/OiDdCWlReTNqZ71hZ1C+t
-IGWEEjDsgE1t88tOt7T2dFoOhcTnYtYMfE6ih2arOD69BJiDupC+Mv7ailb/+AeO
-qMA/u/jFMGT+uNPniMCUHY9pfbJdTp43gM60YH2LKRyYrgxQ6X/J7VZVgEXY1GbR
-piFvZaSOD1AM8bbWJvi9lFBoB/O82/lUWfAe1jSFNTivZvrO43c6KgDcy2wUQsxw
-9qYPeEhXIGXkK5xvQB5d
-=6cWL
+iQIcBAEBAgAGBQJU/6ltAAoJEJ/Rlq0N/NXWBM0P/RBVTvqgOs7xExxEeJMfChdR
+3CYQZQZWRzdatzSvNFaIHBndq0D65mlH8TBEdHqadz7qZwcxNBJtWQB6gj55ii2m
+Vw/B2XeGYC9eq7eylf1ODbGjulyFicHn3ob4IAaHz0NB8fQxiFwZrfEWBtRFGfFj
+pFyoAySjAXmlEoA2QCyJS3PypDR0HfjK3hYU/vhfHr10X2wEqPcwggf3zM3V+GrJ
+4M90xvAs2LcSbg0e7aH5T45g8ofEokNwRSkqwnhBy4psn6FAcfzFk7JP2iY/r722
+g7uhm11UruAt4l+Bd0fFneaqFFYvrNraDf2YQ9Ic/gxpkdHtJKOwHcLJ3EyRwe+E
+YQLkrN7sF43k4tPXmubovyoK2LIhGkdMOdpCT6ZhLweJIHWfGt3L3fFUXODAgIWx
+Zmijzb39VQEMxd6HZB7icU3d++th818lxvAVo3kHCejfXO2387025zDf/+domm7q
+QFqtodxFWJNoELi4xCqHQu7AZP8uV39JfupscN8ekewKAuTjR2FW7SVXMWpr/y1t
+nuMwq93g7vknkznIE8LYsj20oCMRj/VG98QzkZkwFqQjNKxosIpMWKO9djTxnNk8
+HXbbtmRRGqAvuzvwkZ7WpEEwXlZXcNsjUgxQQPZZUkPrubT5JpLSo4SO1rEKq0qD
+gcLJCUpoGryjYhLPMF55
+=PdV2
 -----END PGP SIGNATURE-----

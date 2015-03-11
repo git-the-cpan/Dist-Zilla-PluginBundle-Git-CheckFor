@@ -40,7 +40,6 @@ my %WriteMakefileArgs = (
     "List::MoreUtils" => 0,
     "List::Util" => 0,
     "Moose" => 0,
-    "Moose::Autobox" => 0,
     "Moose::Role" => 0,
     "MooseX::AttributeShortcuts" => 0,
     "Try::Tiny" => 0,
@@ -63,7 +62,7 @@ my %WriteMakefileArgs = (
     "Test::More" => "0.94",
     "Test::TempDir::Tiny" => 0
   },
-  "VERSION" => "0.012",
+  "VERSION" => "0.013",
   "test" => {
     "TESTS" => "t/*.t t/plugin/*.t"
   }
@@ -87,7 +86,6 @@ my %FallbackPrereqs = (
   "List::MoreUtils" => 0,
   "List::Util" => 0,
   "Moose" => 0,
-  "Moose::Autobox" => 0,
   "Moose::Role" => 0,
   "MooseX::AttributeShortcuts" => 0,
   "Path::Tiny" => 0,

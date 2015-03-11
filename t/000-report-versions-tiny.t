@@ -64,7 +64,6 @@ eval { $v .= pmver('IPC::System::Simple','any version') };
 eval { $v .= pmver('List::MoreUtils','any version') };
 eval { $v .= pmver('List::Util','any version') };
 eval { $v .= pmver('Moose','any version') };
-eval { $v .= pmver('Moose::Autobox','any version') };
 eval { $v .= pmver('Moose::Role','any version') };
 eval { $v .= pmver('MooseX::AttributeShortcuts','any version') };
 eval { $v .= pmver('Path::Tiny','any version') };

@@ -9,7 +9,7 @@
 #
 package Dist::Zilla::Role::Git::Repo::More;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-$Dist::Zilla::Role::Git::Repo::More::VERSION = '0.012';
+$Dist::Zilla::Role::Git::Repo::More::VERSION = '0.013';
 # ABSTRACT: A little more than Dist::Zilla::Role::Git::Repo
 
 use Moose::Role;
@@ -103,7 +103,7 @@ Dist::Zilla::Role::Git::Repo::More - A little more than Dist::Zilla::Role::Git::
 
 =head1 VERSION
 
-This document describes version 0.012 of Dist::Zilla::Role::Git::Repo::More - released February 23, 2015 as part of Dist-Zilla-PluginBundle-Git-CheckFor.
+This document describes version 0.013 of Dist::Zilla::Role::Git::Repo::More - released March 10, 2015 as part of Dist-Zilla-PluginBundle-Git-CheckFor.
 
 =head1 SYNOPSIS
 

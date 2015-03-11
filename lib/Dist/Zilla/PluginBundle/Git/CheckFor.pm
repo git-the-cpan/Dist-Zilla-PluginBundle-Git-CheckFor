@@ -9,8 +9,8 @@
 #
 package Dist::Zilla::PluginBundle::Git::CheckFor;
 our $AUTHORITY = 'cpan:RSRCHBOY';
-# git description: 0.011-2-ga3f62a9
-$Dist::Zilla::PluginBundle::Git::CheckFor::VERSION = '0.012';
+# git description: 0.012-2-ge8259ed
+$Dist::Zilla::PluginBundle::Git::CheckFor::VERSION = '0.013';
 
 # ABSTRACT: All Git::CheckFor plugins at once
 
@@ -53,7 +53,7 @@ Dist::Zilla::PluginBundle::Git::CheckFor - All Git::CheckFor plugins at once
 
 =head1 VERSION
 
-This document describes version 0.012 of Dist::Zilla::PluginBundle::Git::CheckFor - released February 23, 2015 as part of Dist-Zilla-PluginBundle-Git-CheckFor.
+This document describes version 0.013 of Dist::Zilla::PluginBundle::Git::CheckFor - released March 10, 2015 as part of Dist-Zilla-PluginBundle-Git-CheckFor.
 
 =head1 SYNOPSIS
 
